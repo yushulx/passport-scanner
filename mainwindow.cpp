@@ -7,6 +7,11 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setAcceptDrops(true);
+
+    worker = NULL;
+    thread = NULL;
+    camera = NULL;
+    
     // Dynamsoft Label Recognizer
     recognizer = DLR_CreateInstance();
     char errorMsgBuffer[256];
@@ -53,9 +58,6 @@ MainWindow::MainWindow(QWidget *parent)
         ui->pushButton_open->setEnabled(false);
         ui->pushButton_stop->setEnabled(false);
     }
-
-    worker = NULL;
-    thread = NULL;
 }
 
 MainWindow::~MainWindow()
