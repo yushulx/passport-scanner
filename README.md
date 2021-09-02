@@ -12,7 +12,7 @@ Get a [trial license](https://www.dynamsoft.com/customer/license/trialLicense?pr
   - Linux
     
     ```bash
-    sudo apt-get install qt5-default
+    sudo apt-get install qt5-default qtmultimedia5-dev
     ```
     
 - [Dynamsoft Label Recognizer 2.0 for Windows and Linux](https://www.dynamsoft.com/barcode-reader/downloads/)
