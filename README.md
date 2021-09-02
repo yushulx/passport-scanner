@@ -3,6 +3,8 @@ A desktop passport scanner app built with [Dynamsoft OCR SDK](https://www.dynams
 
 ## Trial License
 Get a [trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr) to activate passport scanning functions.
+
+![sdk license key](https://www.dynamsoft.com/blog/wp-content/uploads/2021/09/passport-scanner-license-key.png)
  
 ## Download
 - Qt
