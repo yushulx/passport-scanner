@@ -45,3 +45,5 @@ cmake --build .
 ./MRZRecognizer
 ```
  
+## Blog
+[Building Desktop Passport Scanner with Qt and USB Camera](https://www.dynamsoft.com/codepool/passport-scanner-qt-desktop-camera.html)
